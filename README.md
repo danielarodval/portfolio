@@ -1,8 +1,7 @@
 # Daniel Rodriguez Git Portfolio
 
 ## Introduction
-This resume repository contains projects written by Daniel Rodriguez
-Languages include C, Java, Python
+Welcome to my GitHub portfolio! I'm Daniel Rodriguez, a seasoned Lead Analyst with a profound expertise in data science and a zest for machine learning. My repository is a curated collection of diverse projects that span across languages like C, Java, Python, React.js (portfolio website), and showcase my proficiency in data pipelining, feature enhancement, and user interface design. From leveraging Selenium for financial data visualization in Python to harnessing machine learning for predictive analysis in real estate, each project here represents a facet of my extensive skill set. Additionally, you'll find assignments that demonstrate my capabilities in GUI development in Java and Python. My portfolio is not just a display of my technical skills; it's a reflection of my dedication to continuous improvement and my ability to lead and innovate in data engineering and analysis. Dive in to explore my journey through the complex yet fascinating world of data science.
 
 ## Projects
 - [Selenium Morningstar Visualization](https://github.com/danielarodval/resume/tree/main/Python/Selenium%20Morningstar%20Visualization#readme): A Python project leveraging Selenium to extract financial data from Morningstar index funds, with data visualization implemented using Plotly.
