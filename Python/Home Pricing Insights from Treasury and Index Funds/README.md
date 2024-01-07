@@ -1,4 +1,5 @@
-## Home Pricing Insights from Treasury and Index Fund Data
+## Forecasting U.S. Median Home Sale Prices with Machine Learning: Insights from Morningstar
+Indexes and SOMA Securities
 
 This project aims to predict median home sale prices in the United States by analyzing data from Treasury Securities Holdings, Morningstar Index Funds, and Zillow Median Home Sale Prices. The project uses various machine learning models to analyze the impact of economic indicators on the U.S. housing market.
 
