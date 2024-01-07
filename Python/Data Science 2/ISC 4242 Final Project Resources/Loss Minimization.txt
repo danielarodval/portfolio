@@ -1,0 +1,27 @@
+Loss Minimization							
+Iteration	# of Epochs	Encoder	Criterion	Optimizer	LR for Opt	Rationale	Avg Loss
+1	20	Small	MSE	Adam	0.001	Baseline NN to test the plotting potential for clusters using PyTorch	2.37871E-06
+2	50	Small	MSE	Adam	0.001	Attempted improvement with large number of epochs.	2.34342E-08
+3	50	Big	MSE	Adam	0.001		6.17225E-06
+4	50	Big	MSE	SGD	0.001		0.250532582
+5	50	Big	L1	SGD	0.001		0.500615772
+6	50	Big	L1	SGD	0.01		0.497479243
+7	50	Big	MSE	Adam	0.001	Batch Size 64	9.60991E-06
+8	50	Big	MSE	Adam	0.001	Batch Size 128	0.001051621
+9	50	Big	MSE	Adam	0.001	Batch Size 256	0.004554313
+10	50	Big	MSE	Adam	0.01	BS = 64	6.58817E-39
+11	50	Big	MSE	Adam	0.1	BS = 64	0
+12	50	Big	MSE	Adam	0.0001	BS = 64	0.011077632
+13	50	Big	MSE	Adam	0.001	Dropout 0.1	5.20533E-06
+14	50	Big	MSE	Adam	0.001	Dropout 0.25	1.15236E-05
+15	500	Big	MSE	Adam	0.001	"Epoch Increase, with overfitted model to ensure we can properly cluster the images, dropout 0.1"	4.668E-07
+16	2500	Big	MSE	Adam	0.001		2.10916E-07
+							
+							
+							
+							
+							
+							
+							
+							
+							 
