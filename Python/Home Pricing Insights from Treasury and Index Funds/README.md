@@ -1,7 +1,3 @@
-Based on the provided PDF and reference structure, here is a Project README in Markdown format for the "Forecasting U.S. Median Home Sale Prices with Machine Learning" project:
-
----
-
 ## Home Pricing Insights from Treasury and Index Fund Data
 
 This project aims to predict median home sale prices in the United States by analyzing data from Treasury Securities Holdings, Morningstar Index Funds, and Zillow Median Home Sale Prices. The project uses various machine learning models to analyze the impact of economic indicators on the U.S. housing market.
@@ -55,9 +51,11 @@ This project aims to predict median home sale prices in the United States by ana
 
 - Include figures and visualizations relevant to the project. (Upload images to GitHub and link them here)
 
-  ![Figure 1: Data Consolidation](link-to-figure-1)
-  ![Figure 2: Feature Selection](link-to-figure-2)
-  ...
+![Figure 1: Data Consolidation](https://github.com/danielarodval/resume/blob/main/Python/Home%20Pricing%20Insights%20from%20Treasury%20and%20Index%20Funds/plots/Correlation%20Pre%20Feature%20Selection.png)
+
+![Figure 2: Data Consolidation](https://github.com/danielarodval/resume/blob/main/Python/Home%20Pricing%20Insights%20from%20Treasury%20and%20Index%20Funds/plots/Correlation%20Post%20Feature%20Selection.png)
+
+![Figure 3: Feature Importance 1 of 4](https://github.com/danielarodval/resume/blob/main/Python/Home%20Pricing%20Insights%20from%20Treasury%20and%20Index%20Funds/plots/Feature%20Importance%20GBT.png)
 
 ### Conclusion
 
