@@ -1,0 +1,6 @@
+Comments on Assignment:
+
+Comments & Interpretations are written in bold blue text.
+(a) models are fitted with reduced datasets when applicable
+(b) model used for CV is logistic regression with L1 penalty, because Python does not have an explicit Logistic Regression LASSO function, therefore l1 penalty would be the closest approximation. To tune lambda you must use C in python which is the inverse of lambda.
+(b) in order to plot the cross validation errors I had to use sklearn validation_curve which plots it differently than in R, where you have a line instead of box plots showing errors

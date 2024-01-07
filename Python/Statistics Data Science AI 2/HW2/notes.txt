@@ -1,0 +1,18 @@
+R^2 as a scoring metric
+	highest it can be is 1, when it is perfectly correlated [.7-.8 is good]
+
+
+Want to predict high energy gamma rays 
+
+Logisitc Regression
+if the probability falls under a threshold report as a 1 or 0
+
+run combinations of the variables, iterate through each pairs in for all variables and with that you build a model
+
+MSC low as possible
+
+interaction variables
+https://polymer-library.polymer-project.org/1.0/docs/devguide/data-system
+
+IF TIME
+	https://polymer-library.polymer-project.org/1.0/docs/devguide/data-system
