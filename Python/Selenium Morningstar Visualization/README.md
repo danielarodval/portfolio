@@ -45,6 +45,9 @@ This project demonstrates the use of Selenium in Python to scrape financial data
 1. Data from the processed dataframes is visualized using Plotly.
 2. Different types of visualizations are created to represent the data effectively.
 
+### Screenshots/Demo
+![Median Home Sale Prices Visualization](link-to-screenshot)
+
 ### Dataset
 
 The data includes various financial metrics from Morningstar index funds such as:
