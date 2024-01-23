@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.util.TreeMap;
+
+public class sga {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        scanner.nextLine(); // Consume the newline
+
+        TreeMap<Character, Long> nameCounts = new TreeMap<>();
+
+        for (int i = 0; i < n; i++) {
+            String name = scanner.nextLine();
+            char firstLetter = name.charAt(0);
+            nameCounts.put(firstLetter, nameCounts.getOrDefault(firstLetter, 0L) + 1);
+        }
+
+        long totalPairs = 0;
+        for (long count : nameCounts.values()) {
+            totalPairs += count * (count - 1); // count * (count - 1) pairs for each letter
+        }
+
+        System.out.println(totalPairs);
+    }
+}
