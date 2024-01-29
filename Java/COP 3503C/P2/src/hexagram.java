@@ -1,3 +1,9 @@
+/*
+ * 
+ * Daniel Rodriguez
+ * COP 3503C
+ */
+
 import java.util.*;
 
 public class hexagram {
