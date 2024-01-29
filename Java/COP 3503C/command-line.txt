@@ -1,0 +1,7 @@
+//compile
+javac hexagram.java
+//save output
+Get-Content myinput.in | java hexagram | Set-Content myoutput.out
+//compare to correct output
+Compare-Object -ReferenceObject (Get-Content correct.out) -DifferenceObject (Get-Content myoutput.out)
+cmd /c fc myoutput.out correct.out
