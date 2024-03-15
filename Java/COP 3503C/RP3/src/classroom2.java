@@ -1,51 +1,42 @@
-/*
- * Daniel Rodriguez
- * COP 3503C - 0001
- */
 import java.util.*;
-// make interval with start and end time 
+
 class Interval implements Comparable<Interval> {
     int start;
     int end;
 
-    // constructor for interval
     Interval(int start, int end) {
         this.start = start;
         this.end = end;
     }
 
-    // compare intervals by end time
     @Override
     public int compareTo(Interval other) {
-        if (this.end == other.end) { // if end time is the same compare start
+        if (this.end == other.end) {
             return this.start - other.start;
         }
         return this.end - other.end;
     }
 }
 
-// make pair with available time and classroom id
 class Pair implements Comparable<Pair> {
     int availableTime;
     int classroomId;
 
-    // constructor for pair
     Pair(int availableTime, int classroomId) {
         this.availableTime = availableTime;
         this.classroomId = classroomId;
     }
 
-    // compare pairs by available time
     @Override
     public int compareTo(Pair other) {
-        if (this.availableTime == other.availableTime) { // if available time is the same compare classroom id
+        if (this.availableTime == other.availableTime) {
             return this.classroomId - other.classroomId;
         }
         return this.availableTime - other.availableTime;
     }
 }
 
-public class classrooms {
+public class classroom2 {
     public static void main(String[] args) {
         Scanner stdin = new Scanner(System.in);
 
@@ -72,9 +63,9 @@ public class classrooms {
             // find the next available classroom
             Pair query = availableClassrooms.floor(new Pair(interval.start, k));
             if (query != null) { // if there is an available classroom
-                int temp = query.classroomId; // temp close classroom id
-                availableClassrooms.remove(query); // remove classroom from available
-                availableClassrooms.add(new Pair(interval.end + 1, temp)); // add classroom with new available time
+                int temp = query.classroomId;
+                availableClassrooms.remove(query);
+                availableClassrooms.add(new Pair(interval.end + 1, temp));
                 count++;
             }
         }
