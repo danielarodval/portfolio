@@ -4,45 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8dcadcf3a7144a11",
-        "type": "split",
+        "id": "26e2f3bff887b1da",
+        "type": "tabs",
         "children": [
           {
-            "id": "5fa2deacca741220",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a8ec438cc946a2ac",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Disjoint Sets/P3-DestroyCon.pdf"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "26e2f3bff887b1da",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "936e151ad7ebb773",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Welcome.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
+            "id": "936e151ad7ebb773",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Disjoint Sets/P3-DestroyCon.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Disjoint Sets/P3-DestroyCon.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Disjoint Sets/P3-DestroyCon.pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -169,10 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8ec438cc946a2ac",
+  "active": "936e151ad7ebb773",
   "lastOpenFiles": [
-    "create a link.md",
     "Welcome.md",
+    "Disjoint Sets/P3-DestroyCon.pdf",
+    "create a link.md",
     "Greedy Algorithms/radix_noneg.java",
     "Greedy Algorithms/radix.java",
     "Greedy Algorithms/containers.java",
@@ -181,7 +151,6 @@
     "radix_noneg.java",
     "Unconfirmed 622781.crdownload",
     "Unconfirmed 609770.crdownload",
-    "Unconfirmed 964998.crdownload",
-    "Greedy Algorithms"
+    "Unconfirmed 964998.crdownload"
   ]
 }
