@@ -163,7 +163,7 @@ years = df_float.columns
 asset_classes = df_float.index
 
 # Create a custom colormap
-cmap = plt.get_cmap("viridis")
+cmap = plt.get_cmap("copper")
 cmap.set_bad(color="white")
 
 # Prepare the data as a masked array
@@ -178,15 +178,11 @@ cax = ax.imshow(masked_data, cmap=cmap, aspect='auto')
 # Set labels and ticks
 ax.set_xticks(range(len(years)))
 ax.set_xticklabels(years)
-#ax.set_yticks(range(len(asset_classes)))
-ax.set_yticks([])
+ax.set_yticks(range(len(asset_classes)))
 ax.set_yticklabels(asset_classes)
 
 # Add a colorbar
 cbar = fig.colorbar(cax, ax=ax)
-
-for i, label in enumerate(asset_classes):
-    ax.text(len(years), i, label, va="center", ha="left", fontsize=12, color="black")
 
 
 # Loop through rows and columns of the normalized dataframe
@@ -202,8 +198,12 @@ ax.set_title('Asset Class Winners and Losers',fontfamily='Franklin Gothic Demi C
 plt.show()
 
 del years, asset_classes, cmap, masked_data, fig, ax, cax, cbar, i, j
+#%%
+pct_change_df.to_csv('df.csv')
+
 # %% plotly graphs
 import plotly.express as px
+from plotly.offline import plot
 
 # Create the heatmap plot
 fig = px.imshow(pct_change_df,
@@ -223,7 +223,7 @@ for i, row in enumerate(pct_change_df.index):
         fig.add_annotation(dict(x=j, y=i, text=value, ax=0, ay=0, xref="x", yref="y", 
                                 showarrow=False, font=dict(size=12, color="white")))
 
-fig.show()
+plot(fig)
 
 del fig, i, row, j, col, value
 # %% plotly graphs
