@@ -22,6 +22,7 @@ def web_scrape(url):
     select_page = driver.find_element(By.ID, "tab-overview")
     select_page.click()
     driver.implicitly_wait(1000)
+    driver.execute_script("window.scrollBy(0, 300);")
     
     # select time period bar
     select_chart = driver.find_element(By.ID, "chart-container")
@@ -39,21 +40,21 @@ def web_scrape(url):
     # select table format
     table_button = driver.find_element(By.CSS_SELECTOR, '[aria-label="Table"]')
     table_button.click()
-    driver.implicitly_wait(150)
+    driver.implicitly_wait(1000)
     
     # select volume data
     filter_button = driver.find_element(By.CSS_SELECTOR, '[data-id="priceVolumeDetail"]')
     filter_button.click()
-    driver.implicitly_wait(300)
-    driver.execute_script("window.scrollBy(0, 600);")
+    driver.implicitly_wait(1000)
+    driver.execute_script("window.scrollBy(0, 300);")
     
     select_chart.click()
     
     # select all data
     dropdown_button = driver.find_elements(By.CSS_SELECTOR,'[class="mds-select___markets mds-select--small___markets"]')
-    dropdown_button = dropdown_button[1]
+    dropdown_button = dropdown_button[1]#class="mds-icon___markets mds-button__icon___markets"
     dropdown_button.click()
-    driver.implicitly_wait(300)
+    driver.implicitly_wait(1000)
     
     dropdown_divs = driver.find_elements(By.CSS_SELECTOR, '.mds-select___markets.mds-select--small___markets')
     dropdown_div = dropdown_divs[1]  # Use the second dropdown as per your code
@@ -169,7 +170,7 @@ cmap.set_bad(color="white")
 masked_data = np.ma.masked_invalid(df_float.to_numpy())
 
 # Set up the figure and axis
-fig, ax = plt.subplots(figsize=(16, 8))
+fig, ax = plt.subplots(figsize=(24, 12))
 
 # Display the data as blocks
 cax = ax.imshow(masked_data, cmap=cmap, aspect='auto')
@@ -177,11 +178,16 @@ cax = ax.imshow(masked_data, cmap=cmap, aspect='auto')
 # Set labels and ticks
 ax.set_xticks(range(len(years)))
 ax.set_xticklabels(years)
-ax.set_yticks(range(len(asset_classes)))
+#ax.set_yticks(range(len(asset_classes)))
+ax.set_yticks([])
 ax.set_yticklabels(asset_classes)
 
 # Add a colorbar
 cbar = fig.colorbar(cax, ax=ax)
+
+for i, label in enumerate(asset_classes):
+    ax.text(len(years), i, label, va="center", ha="left", fontsize=12, color="black")
+
 
 # Loop through rows and columns of the normalized dataframe
 for i in range(len(asset_classes)):
@@ -190,12 +196,12 @@ for i in range(len(asset_classes)):
         ax.annotate(df_float.iloc[i, j], xy=(j, i),
                     ha='center', va='center', color='white')
 
-ax.set_title('Asset Class Winners and Losers')
+ax.set_title('Asset Class Winners and Losers',fontfamily='Franklin Gothic Demi Cond',fontsize=24,loc='left')
         
 # Show the plot
 plt.show()
 
-del df_float, years, asset_classes, cmap, masked_data, fig, ax, cax, cbar, i, j
+del years, asset_classes, cmap, masked_data, fig, ax, cax, cbar, i, j
 # %% plotly graphs
 import plotly.express as px
 
