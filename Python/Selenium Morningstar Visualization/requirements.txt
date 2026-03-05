@@ -1,0 +1,8 @@
+selenium>=4.0
+pandas>=1.5
+matplotlib>=3.6
+jupyterlab>=3.5
+webdriver-manager>=3.8
+beautifulsoup4>=4.11
+lxml>=4.9
+numpy>=1.24
