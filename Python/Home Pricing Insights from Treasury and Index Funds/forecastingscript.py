@@ -5,11 +5,29 @@ Daniel Rodriguez, Kzzy Centeno, Mir Khan, Sriharsha Aitharaju
 #%% Import Packages
 import pandas as pd
 import numpy as np
-from os import listdir
+from os import listdir, makedirs
 from os.path import join
+import os
+import matplotlib
+import matplotlib.pyplot as plt
+
+# Allow saving plots instead of showing them when SAVE_PLOTS=1 is set
+SAVE_PLOTS = os.getenv("SAVE_PLOTS", "0") == "1"
+if SAVE_PLOTS:
+    matplotlib.use('Agg')
+    makedirs('plots', exist_ok=True)
+    def _save_all_figs(prefix="figure"):
+        for i, num in enumerate(plt.get_fignums(), start=1):
+            fig = plt.figure(num)
+            path = join('plots', f"{prefix}_{i}.png")
+            fig.savefig(path, bbox_inches='tight')
+        plt.close('all')
+    def _patched_show(*args, **kwargs):
+        _save_all_figs()
+    plt.show = _patched_show
 from sklearn.preprocessing import StandardScaler
 import seaborn as sns
-import matplotlib.pyplot as plt
+# matplotlib.pyplot already imported and possibly patched above
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
