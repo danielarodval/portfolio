@@ -131,19 +131,17 @@ If you'd like, I can add example screenshots into `plots/`, export the main figu
 
 - Include figures and visualizations relevant to the project. (Upload images to GitHub and link them here)
 
-![Figure 1: Data Consolidation](plots/Correlation Pre Feature Selection.png)
+![Figure 1: Data Consolidation](plots/Correlation_Pre_Feature_Selection.png)
 
-![Demo placeholder](assets/demo.svg)
+![Figure 2: Data Consolidation](./plots/Correlation_Post_Feature_Selection.png)
 
-![Figure 2: Data Consolidation](./plots/Correlation Post Feature Selection.png)
+![Figure 3: Feature Importance 1 of 4](./plots/Feature_Importance_GBT.png)
 
-![Figure 3: Feature Importance 1 of 4](./plots/Feature Importance GBT.png)
+![Figure 4: Feature Importance 2 of 4](./plots/Feature_Importance_KNN.png)
 
-![Figure 3: Feature Importance 2 of 4](./plots/Feature Importance KNN.png)
+![Figure 5: Feature Importance 3 of 4](./plots/Feature_Importance_RF.png)
 
-![Figure 3: Feature Importance 3 of 4](./plots/Feature Importance RF.png)
-
-![Figure 3: Feature Importance 4 of 4](./plots/Feature Importance SVR.png)
+![Figure 6: Feature Importance 4 of 4](./plots/Feature_Importance_SVR.png)
 
 ### Conclusion
 
