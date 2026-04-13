@@ -131,11 +131,17 @@ If you'd like, I can add example screenshots into `plots/`, export the main figu
 
 - Include figures and visualizations relevant to the project. (Upload images to GitHub and link them here)
 
-![Figure 1: Data Consolidation](https://github.com/danielarodval/resume/blob/main/Python/Home%20Pricing%20Insights%20from%20Treasury%20and%20Index%20Funds/plots/Correlation%20Pre%20Feature%20Selection.png)
+![Figure 1: Data Consolidation](./plots/Correlation Pre Feature Selection.png)
 
-![Figure 2: Data Consolidation](https://github.com/danielarodval/resume/blob/main/Python/Home%20Pricing%20Insights%20from%20Treasury%20and%20Index%20Funds/plots/Correlation%20Post%20Feature%20Selection.png)
+![Figure 2: Data Consolidation](./plots/Correlation Post Feature Selection.png)
 
-![Figure 3: Feature Importance 1 of 4](https://github.com/danielarodval/resume/blob/main/Python/Home%20Pricing%20Insights%20from%20Treasury%20and%20Index%20Funds/plots/Feature%20Importance%20GBT.png)
+![Figure 3: Feature Importance 1 of 4](./plots/Feature Importance GBT.png)
+
+![Figure 3: Feature Importance 2 of 4](./plots/Feature Importance KNN.png)
+
+![Figure 3: Feature Importance 3 of 4](./plots/Feature Importance RF.png)
+
+![Figure 3: Feature Importance 4 of 4](./plots/Feature Importance SVR.png)
 
 ### Conclusion
 
