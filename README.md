@@ -47,24 +47,31 @@ and/or check out [my portfolio website](https://www.danrodval.com/)
 
 ## Rack Diagram & Photos
 
-description
+The server rack was created using an IKEA Eket cabinet alongside four 7U rails and a frame using 1x12 & 2x10 wood pieces that permit for roughly 10 inches of depth shared between front and back mounted devices.
+
+All of the mounts were found online and modified using TinkerCAD for adding patches for ethernet as well as splitting the mount in two pieces due to 180mm 3D printer limitation.
 
 ![Rack Layout](images/rack-layout.svg)
 
 ## Network Configuration
 
-description
+Networking is configured via Unifi OS from Ubiquiti throughout the entire system. Ensuring device isolation and reducing data inflow/outflow points.
 
-![Rack Layout](images/rack-layout.svg)
+![Rack Layout](images/network-config.svg)
 
 ## Deployment Pipeline
 
-description
+Reverse proxy test was used as a proof of concept that is currently running online to ensure proper device isolation as well as docker container hosting with Cloudflare Tunnels. Can be seen on the following [test on danrodval-selfhosted](https://test.danrodval-selfhosted.com/) site.
 
-![Rack Layout](images/rack-layout.svg)
+![Rack Layout](images/deployment.svg)
 
 ## Website Structure
 
-description
+The intended layout/structure for the portfolio website is as follows:
 
-![Rack Layout](images/rack-layout.svg)
+1. rebasing home-pricing, nn vs. ml, and the webscraper onto streamlit webapps
+2. containerizing said webapps
+3. hosting them on respective subdomains on the portfolio site
+4. ensuring dns failover for each linked site, wherein pings are sent to each streamlit alternative when the main site is reached to ensure running
+
+![Rack Layout](images/web-structure.svg)
