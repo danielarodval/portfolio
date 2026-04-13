@@ -131,7 +131,9 @@ If you'd like, I can add example screenshots into `plots/`, export the main figu
 
 - Include figures and visualizations relevant to the project. (Upload images to GitHub and link them here)
 
-![Figure 1: Data Consolidation](./plots/Correlation Pre Feature Selection.png)
+![Figure 1: Data Consolidation](plots/Correlation Pre Feature Selection.png)
+
+![Demo placeholder](assets/demo.svg)
 
 ![Figure 2: Data Consolidation](./plots/Correlation Post Feature Selection.png)
 
