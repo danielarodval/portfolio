@@ -46,13 +46,25 @@ and/or check out [my portfolio website](https://www.danrodval.com/)
   - A Chakra UI website hosted on Vercel
 
 ## Rack Diagram & Photos
-!(Rack Layout)[images/rack-layout.svg]
+
+description
+
+![Rack Layout](images/rack-layout.svg)
 
 ## Network Configuration
 
+description
+
+![Rack Layout](images/rack-layout.svg)
 
 ## Deployment Pipeline
 
+description
+
+![Rack Layout](images/rack-layout.svg)
 
 ## Website Structure
 
+description
+
+![Rack Layout](images/rack-layout.svg)
