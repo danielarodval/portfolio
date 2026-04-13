@@ -18,32 +18,41 @@ and/or check out [my portfolio website](https://www.danrodval.com/)
 
 ### Active Projects 🔄
 - [Reverse Proxy Test](https://github.com/danielarodval/local-host-test-site)
-  - Core Skills: Reverse Proxy, Containerization with Docker
+  - Reverse Proxy, Containerization with Docker
   - Adding CI/CD tooling with GitHub using linked repo
-- [AMP Monitor](https://github.com/danielarodval/amp-monitor)
-  - Core Skills: Full-Stack Deployment in Python 
-  - Core Packages: FastAPI ingest, SQLite/Neon, Reflex/Streamlit UI, Nginx, Docker, Cloudflare Tunnel, CI/CD
-  - [Backend Testing for Full-Stack](https://github.com/danielarodval/backend-testing-neon-postgres)
-  - Core Skills: 
+- [Backend Testing for Full-Stack with Neon Postgres](https://github.com/danielarodval/backend-testing-neon-postgres)
+  - Containerization with Docker, ORM Tooling
+- [AMP Game Server Monitor](https://github.com/danielarodval/amp-monitor)
+  - Full-Stack Deployment in Python with FastAPI, Neon Postgres, Reflex UI
+
+### Upcoming Projects 👀
+- Cluster Computing with Kubernetes
+- Always Up VLLM Tooling with OpenClaw
+- DNS Failover for Cloud Backup Hosted Sites
 
 ### Previous Projects ✅
-- Upcoming for 2026 😊
-  - Cluster Computing with Kubernetes
-  - Always Up VLLM Tooling with OpenClaw
-  - DNS Failover for Cloud Backup Hosted Sites
-- Previous Projects
-  - [Previous Project: Docusign Hackathon](https://github.com/danielarodval/docusign-hackathon-2024)
-    - Core Skills: Reverse Proxy, Local LLM & AI
-  - [Morningstar Webscraper & Visualizer]()
-    - Core Skills: Selenium Scraper, Plotly Visualization,Financial Data Replication...
-  - [U.S. Home Price Forecasting with 4 Multi-Variate Regression Techniques](https://github.com/danielarodval/resume/tree/main/Python/Home%20Pricing%20Insights%20from%20Treasury%20and%20Index%20Funds#readme)
-    - Core Skills: Data Aggregation & Preparation, Hyperparameter Tuning, Regression Testing: Random Forest, Linear, Linear Support Vector Machines, ...
-    - Used 4 different data sources: Zillow, Morningstar Index Funds, U.S. Treasury Securities Holdings (SOMA)
-  - [Bin Packing Algorithm Testing](https://github.com/danielarodval/st-bin-packing)
-    - Core Skills: Deployment via Streamlit, Network Flow & Bin Packing Testing
-  - [Machine Learning vs. Neural Network Clustering](https://github.com/danielarodval/resume/tree/main/Python/Neural%20Network%20Attempt%20at%20Clustering#readme)
-    - Core Skills: PyTorch Testing, K-Nearest Neighbors Clustering,
-  - [JavaScript Website](https://github.com/danielarodval/js-site)
-    - Core Skills: legit just JS
+- [Docusign AI Integration Hackathon](https://github.com/danielarodval/docusign-hackathon-2024)
+  - Local LLM integration, Streamlit app, API integration, local/cloud hosting
+- [Morningstar Webscraper & Visualizer](https://github.com/danielarodval/portfolio/tree/main/code_dir/Python/Selenium%20Morningstar%20Visualization)
+  - Selenium Web-Scraper, Plotly Visualization,Financial Data Replication
+- [U.S. Home Price Forecasting with 4 Multi-Variate Regression Techniques](https://github.com/danielarodval/portfolio/tree/main/code_dir/Python/Home%20Pricing%20Insights%20from%20Treasury%20and%20Index%20Funds)
+  - Data Aggregation & Preparation, Hyperparameter Tuning, Regression Testing: Gradient Boosted, KNN, Random Forest, Linear Support Vector
+  - Used 4 different data sources: Zillow, Morningstar Index Funds, U.S. Treasury Securities Holdings (SOMA)
+- [Bin Packing Algorithm Testing](https://github.com/danielarodval/st-bin-packing)
+  - Deployment via Streamlit, Network Flow & Bin Packing Testing
+- [Machine Learning vs. Neural Network Clustering](https://github.com/danielarodval/portfolio/tree/main/code_dir/Python/Neural%20Network%20Attempt%20at%20Clustering)
+  - PyTorch Testing, K-Nearest Neighbors Clustering,
+- [JavaScript Website](https://github.com/danielarodval/js-site)
+  - A Chakra UI website hosted on Vercel
 
 ## Rack Diagram & Photos
+!(Rack Layout)[images/rack-layout.svg]
+
+## Network Configuration
+
+
+## Deployment Pipeline
+
+
+## Website Structure
+
