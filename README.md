@@ -11,10 +11,10 @@ and/or check out [my portfolio website](https://www.danrodval.com/)
 ## README Content & Links
 
 ### Homelab Docs 🏠
-- [Rack Diagram & Photos]()
-- [Network Configuration]()
-- [Deployment Pipeline]()
-- [Website Structure]()
+- [Rack Diagram & Photos](#rack-diagram--photos)
+- [Network Configuration](#network-configuration)
+- [Deployment Pipeline](#deployment-pipeline)
+- [Website Structure](#website-structure)
 
 ### Active Projects 🔄
 - [Reverse Proxy Test](https://github.com/danielarodval/local-host-test-site)
