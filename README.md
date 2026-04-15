@@ -1,11 +1,10 @@
-# Daniel Rodriguez
+# Daniel Rodriguez Portfolio & Personal Development Overview
 
-Data Scientist focused on machine learning, analytics, and data engineering, with a strong interest in the infrastructure and tooling that help technical projects run in practice.
+I am a Data Scientist focused on machine learning, analytics, and data engineering, with a strong interest in the infrastructure and tooling that help technical projects run in practice.
 
 I like building projects that turn raw data into something useful, whether that’s an ML workflow, an interactive app, a forecasting project, or a cleaner backend pipeline. A lot of my work sits at the intersection of data, coding, and implementation. Alongside that, I maintain a homelab where I experiment with deployment workflows, reverse proxies, networking, and self-hosted services.
 
-Contact me via [LinkedIn](https://www.linkedin.com/in/danielarodval/)  
-Also check out [my portfolio website](https://www.danrodval.com/)
+Contact me via [LinkedIn](https://www.linkedin.com/in/danielarodval/), also check out [my portfolio website](https://www.danrodval.com/).
 
 ---
 
@@ -83,11 +82,16 @@ Frontend project using Chakra UI and Vercel hosting.
 - Chakra UI
 - Vercel deployment
 
+### Upcoming Projects & Areas of Interest
+- Cluster computing with Kubernetes
+- Always-on local VLLM tooling with OpenClaw
+- DNS failover for cloud backup hosted sites
+
 ---
 
 ## Homelab & Infrastructure
 
-Outside of my core data work, I maintain a homelab where I test deployment workflows, reverse proxies, remote access, internal networking, and service architecture. It’s a technical playground that complements my broader interest in building end-to-end projects.
+Outside of my core data work, I maintain a homelab where I test deployment workflows, reverse proxies, remote access, internal networking, and service architecture. It’s a technical playground that complements my broader interest in building end-to-end projects. I’ve always liked figuring out how things work under the hood, especially around dev ops, networking, and the tooling that keeps systems running. This interest started back in high school with Unix and NAS tooling in my CSIT courses, then in college hosting Minecraft on a Raspberry Pi and helping with hackathon projects. Over time, it evolved into serious learning of local deployment and self-hosted infrastructure, resulting in an ongoing homelab for experimenting across different projects. Lately, I’ve been documenting the environment more intentionally with diagrams, service maps, and repo-level notes to make the work easier to follow than just “here’s a server I built.”
 
 ### Homelab Docs 🏠
 - [Rack Diagram & Photos](#rack-diagram--photos)
@@ -95,10 +99,6 @@ Outside of my core data work, I maintain a homelab where I test deployment workf
 - [Deployment Pipeline](#deployment-pipeline)
 - [Website Structure](#website-structure)
 
-### Current Areas of Interest
-- Cluster computing with Kubernetes
-- Always-on local VLLM tooling with OpenClaw
-- DNS failover for cloud backup hosted sites
 
 ---
 
